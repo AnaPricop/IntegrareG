@@ -1,0 +1,101 @@
+#textLogin{
+
+  margin-bottom: 5%;
+  margin-top: 15%;
+  align-items: center;
+  color:rgb(22, 23, 24);
+  font-size: 20px;
+  text-shadow: 1px;
+  font-family: 'Segoe UI',sans-serif;
+}
+.fieldLogin:hover {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bodyLogin{
+  background: url(help.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-rows: 30% 75%;
+  height: 100vh;
+}
+#imageLogin{
+  display: grid;
+  height:100%;
+  margin-top: 10%;
+}
+#logoLogin{
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.signup-containerLogin {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 25%;
+  border-radius: 4px;
+  fill-opacity: 0.5;
+  box-shadow: 0px 3px 7px rgba(0,0,0,.25);
+  display: grid;
+  
+}
+input[type=text] {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  box-shadow: black;
+  
+}
+
+.form-controlLogin {
+
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  background-color: transparent;
+
+}
+
+.form__fieldLogin {
+  font-family: inherit;
+  width: 120%;
+  border-bottom: 1;
+  outline: 0;
+  font-size: 1rem;
+  padding: 5px 0;
+  background-color:transparent;
+}
+
+@media screen and (max-width: 950px){
+  .signup-containerLogin {
+    width:60%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .signup-containerLogin {
+    width:80%;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  .signup-containerLogin {
+    width:90%;
+  }
+
+}
